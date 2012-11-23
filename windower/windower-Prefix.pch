@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'windower' target in the 'windower' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif

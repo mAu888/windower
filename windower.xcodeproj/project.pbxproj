@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C015C481660298300446BF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C015C471660298300446BF3 /* Cocoa.framework */; };
+		5C015C521660298300446BF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C015C501660298300446BF3 /* InfoPlist.strings */; };
+		5C015C541660298300446BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C015C531660298300446BF3 /* main.m */; };
+		5C015C581660298300446BF3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5C015C561660298300446BF3 /* Credits.rtf */; };
+		5C015C5B1660298300446BF3 /* WRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C015C5A1660298300446BF3 /* WRAppDelegate.m */; };
+		5C015C5E1660298400446BF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C015C5C1660298400446BF3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C015C431660298300446BF3 /* windower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C015C471660298300446BF3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5C015C4A1660298300446BF3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5C015C4B1660298300446BF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5C015C4C1660298300446BF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C015C4F1660298300446BF3 /* windower-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "windower-Info.plist"; sourceTree = "<group>"; };
+		5C015C511660298300446BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C015C531660298300446BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C015C551660298300446BF3 /* windower-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "windower-Prefix.pch"; sourceTree = "<group>"; };
+		5C015C571660298300446BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5C015C591660298300446BF3 /* WRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WRAppDelegate.h; sourceTree = "<group>"; };
+		5C015C5A1660298300446BF3 /* WRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRAppDelegate.m; sourceTree = "<group>"; };
+		5C015C5D1660298400446BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C015C401660298300446BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C015C481660298300446BF3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C015C381660298300446BF3 = {
+			isa = PBXGroup;
+			children = (
+				5C015C4D1660298300446BF3 /* windower */,
+				5C015C461660298300446BF3 /* Frameworks */,
+				5C015C441660298300446BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C015C441660298300446BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C015C431660298300446BF3 /* windower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C015C461660298300446BF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C015C471660298300446BF3 /* Cocoa.framework */,
+				5C015C491660298300446BF3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C015C491660298300446BF3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C015C4A1660298300446BF3 /* AppKit.framework */,
+				5C015C4B1660298300446BF3 /* CoreData.framework */,
+				5C015C4C1660298300446BF3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5C015C4D1660298300446BF3 /* windower */ = {
+			isa = PBXGroup;
+			children = (
+				5C015C591660298300446BF3 /* WRAppDelegate.h */,
+				5C015C5A1660298300446BF3 /* WRAppDelegate.m */,
+				5C015C5C1660298400446BF3 /* MainMenu.xib */,
+				5C015C4E1660298300446BF3 /* Supporting Files */,
+			);
+			path = windower;
+			sourceTree = "<group>";
+		};
+		5C015C4E1660298300446BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C015C4F1660298300446BF3 /* windower-Info.plist */,
+				5C015C501660298300446BF3 /* InfoPlist.strings */,
+				5C015C531660298300446BF3 /* main.m */,
+				5C015C551660298300446BF3 /* windower-Prefix.pch */,
+				5C015C561660298300446BF3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C015C421660298300446BF3 /* windower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C015C611660298400446BF3 /* Build configuration list for PBXNativeTarget "windower" */;
+			buildPhases = (
+				5C015C3F1660298300446BF3 /* Sources */,
+				5C015C401660298300446BF3 /* Frameworks */,
+				5C015C411660298300446BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = windower;
+			productName = windower;
+			productReference = 5C015C431660298300446BF3 /* windower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C015C3A1660298300446BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mauricio Hanika";
+			};
+			buildConfigurationList = 5C015C3D1660298300446BF3 /* Build configuration list for PBXProject "windower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C015C381660298300446BF3;
+			productRefGroup = 5C015C441660298300446BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C015C421660298300446BF3 /* windower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C015C411660298300446BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C015C521660298300446BF3 /* InfoPlist.strings in Resources */,
+				5C015C581660298300446BF3 /* Credits.rtf in Resources */,
+				5C015C5E1660298400446BF3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C015C3F1660298300446BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C015C541660298300446BF3 /* main.m in Sources */,
+				5C015C5B1660298300446BF3 /* WRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C015C501660298300446BF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C015C511660298300446BF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C015C561660298300446BF3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C015C571660298300446BF3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5C015C5C1660298400446BF3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C015C5D1660298400446BF3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C015C5F1660298400446BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C015C601660298400446BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C015C621660298400446BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windower/windower-Prefix.pch";
+				INFOPLIST_FILE = "windower/windower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C015C631660298400446BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windower/windower-Prefix.pch";
+				INFOPLIST_FILE = "windower/windower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C015C3D1660298300446BF3 /* Build configuration list for PBXProject "windower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C015C5F1660298400446BF3 /* Debug */,
+				5C015C601660298400446BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C015C611660298400446BF3 /* Build configuration list for PBXNativeTarget "windower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C015C621660298400446BF3 /* Debug */,
+				5C015C631660298400446BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C015C3A1660298300446BF3 /* Project object */;
+}
