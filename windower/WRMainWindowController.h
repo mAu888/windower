@@ -1,5 +1,5 @@
 //
-//  WRAppDelegate.h
+//  WRMainWindowController.h
 //  windower
 //
 //  Created by Mauricio Hanika on 23.11.12.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface WRAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (readonly) NSArray *trackingWindows;
+@interface WRMainWindowController : NSWindowController
 
 @end
