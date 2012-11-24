@@ -13,6 +13,10 @@
 		5C015C581660298300446BF3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5C015C561660298300446BF3 /* Credits.rtf */; };
 		5C015C5B1660298300446BF3 /* WRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C015C5A1660298300446BF3 /* WRAppDelegate.m */; };
 		5C015C5E1660298400446BF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C015C5C1660298400446BF3 /* MainMenu.xib */; };
+		5C015C6816602A0400446BF3 /* WRMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C015C6716602A0400446BF3 /* WRMainWindowController.m */; };
+		5C015C6A16602A6500446BF3 /* WRMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C015C6916602A6500446BF3 /* WRMainWindow.xib */; };
+		5C60D42316602E370074E26F /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C60D42216602E370074E26F /* ApplicationServices.framework */; };
+		5CADCA021660B98D0021C590 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CADCA011660B98D0021C590 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,11 @@
 		5C015C591660298300446BF3 /* WRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WRAppDelegate.h; sourceTree = "<group>"; };
 		5C015C5A1660298300446BF3 /* WRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRAppDelegate.m; sourceTree = "<group>"; };
 		5C015C5D1660298400446BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C015C6616602A0400446BF3 /* WRMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRMainWindowController.h; sourceTree = "<group>"; };
+		5C015C6716602A0400446BF3 /* WRMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRMainWindowController.m; sourceTree = "<group>"; };
+		5C015C6916602A6500446BF3 /* WRMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WRMainWindow.xib; sourceTree = "<group>"; };
+		5C60D42216602E370074E26F /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		5CADCA011660B98D0021C590 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CADCA021660B98D0021C590 /* Carbon.framework in Frameworks */,
+				5C60D42316602E370074E26F /* ApplicationServices.framework in Frameworks */,
 				5C015C481660298300446BF3 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +74,8 @@
 		5C015C461660298300446BF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C60D42216602E370074E26F /* ApplicationServices.framework */,
+				5CADCA011660B98D0021C590 /* Carbon.framework */,
 				5C015C471660298300446BF3 /* Cocoa.framework */,
 				5C015C491660298300446BF3 /* Other Frameworks */,
 			);
@@ -84,7 +97,10 @@
 			children = (
 				5C015C591660298300446BF3 /* WRAppDelegate.h */,
 				5C015C5A1660298300446BF3 /* WRAppDelegate.m */,
+				5C015C6616602A0400446BF3 /* WRMainWindowController.h */,
+				5C015C6716602A0400446BF3 /* WRMainWindowController.m */,
 				5C015C5C1660298400446BF3 /* MainMenu.xib */,
+				5C015C6916602A6500446BF3 /* WRMainWindow.xib */,
 				5C015C4E1660298300446BF3 /* Supporting Files */,
 			);
 			path = windower;
@@ -157,6 +173,7 @@
 				5C015C521660298300446BF3 /* InfoPlist.strings in Resources */,
 				5C015C581660298300446BF3 /* Credits.rtf in Resources */,
 				5C015C5E1660298400446BF3 /* MainMenu.xib in Resources */,
+				5C015C6A16602A6500446BF3 /* WRMainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +186,7 @@
 			files = (
 				5C015C541660298300446BF3 /* main.m in Sources */,
 				5C015C5B1660298300446BF3 /* WRAppDelegate.m in Sources */,
+				5C015C6816602A0400446BF3 /* WRMainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "windower/windower-Prefix.pch";
 				INFOPLIST_FILE = "windower/windower-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +291,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "windower/windower-Prefix.pch";
 				INFOPLIST_FILE = "windower/windower-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +316,7 @@
 				5C015C631660298400446BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

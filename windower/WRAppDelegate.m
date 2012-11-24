@@ -7,17 +7,24 @@
 //
 
 #import "WRAppDelegate.h"
+#import "WRMainWindowController.h"
 
 @implementation WRAppDelegate
+{
+  WRMainWindowController *_mainWindowController;
+}
 
 - (void)dealloc
 {
-    [super dealloc];
+  [_mainWindowController release];
+  [super dealloc];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
   // Insert code here to initialize your application
+  _mainWindowController = [[WRMainWindowController alloc] initWithWindowNibName:@"WRMainWindow"];
+  [_mainWindowController showWindow:self];
 }
 
 @end
