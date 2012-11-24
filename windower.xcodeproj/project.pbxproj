@@ -15,6 +15,8 @@
 		5C015C5E1660298400446BF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C015C5C1660298400446BF3 /* MainMenu.xib */; };
 		5CA6547D1660D97A00056900 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA6547C1660D97A00056900 /* ApplicationServices.framework */; };
 		5CA654801660D97E00056900 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA6547F1660D97E00056900 /* Carbon.framework */; };
+		5CA654841660D9DD00056900 /* WRMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA654811660D9DD00056900 /* WRMainWindow.xib */; };
+		5CA654851660D9DD00056900 /* WRMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA654831660D9DD00056900 /* WRMainWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		5C015C5D1660298400446BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5CA6547C1660D97A00056900 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		5CA6547F1660D97E00056900 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5CA654811660D9DD00056900 /* WRMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WRMainWindow.xib; sourceTree = "<group>"; };
+		5CA654821660D9DD00056900 /* WRMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRMainWindowController.h; sourceTree = "<group>"; };
+		5CA654831660D9DD00056900 /* WRMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRMainWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,9 @@
 			children = (
 				5C015C591660298300446BF3 /* WRAppDelegate.h */,
 				5C015C5A1660298300446BF3 /* WRAppDelegate.m */,
+				5CA654811660D9DD00056900 /* WRMainWindow.xib */,
+				5CA654821660D9DD00056900 /* WRMainWindowController.h */,
+				5CA654831660D9DD00056900 /* WRMainWindowController.m */,
 				5C015C5C1660298400446BF3 /* MainMenu.xib */,
 				5C015C4E1660298300446BF3 /* Supporting Files */,
 			);
@@ -165,6 +173,7 @@
 				5C015C521660298300446BF3 /* InfoPlist.strings in Resources */,
 				5C015C581660298300446BF3 /* Credits.rtf in Resources */,
 				5C015C5E1660298400446BF3 /* MainMenu.xib in Resources */,
+				5CA654841660D9DD00056900 /* WRMainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 			files = (
 				5C015C541660298300446BF3 /* main.m in Sources */,
 				5C015C5B1660298300446BF3 /* WRAppDelegate.m in Sources */,
+				5CA654851660D9DD00056900 /* WRMainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
